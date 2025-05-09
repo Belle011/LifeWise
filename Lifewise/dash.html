@@ -9,7 +9,6 @@
 <body class="dash-body">
     <header>
         <div id= "header">
-            <div class="container">
                 <nav>
                     <h1>Lifewise_A digital Heathcare Educative System</h1>
                      <ul>
@@ -19,10 +18,15 @@
                         <li><a href="#quizzes">Quizzes</a></li>
                         <li><a href="#forum">Discussion forum</a></li>
                         <li><a href="#contact">Contact/Support</a></li>
+                        <li><a href="./tracker.php">Habit Tracker</a></li>
+                        <li><a href="./subscriptions.html">Subscriptions</a></li>
+                        <li><a href="./index.html">Logout</a></li>
+
         </ul>
     </nav>
-</header>
-
+</header>    
+   <div class="container">
+     
 <!-- Home Section -->
 <section id="home" class="hero">
     <div class="hero-text">
@@ -38,7 +42,7 @@
         <h2>Early Pregnancy Awareness</h2>
         <p>Early pregnancy can have serious health, social, and economic consequences. Understanding its causes and effects can help in prevention.</p>
 
-        <div class="content">
+        <div class="EP-container">
             <div class="box">
                 <h3>Causes</h3>
                 <ul>
@@ -47,6 +51,7 @@
                     <li>Sexual abuse</li>
                     <li>Limited access to contraceptives</li>
                 </ul>
+                <a href="./earlypregnancy.html" class="btn">Learn more</a>
             </div>
 
             <div class="box">
@@ -57,6 +62,7 @@
                     <li>Financial difficulties</li>
                     <li>Social stigma</li>
                 </ul>
+                <a href="./earlypregnancy.html" class="btn">Learn more</a>
             </div>
 
             <div class="box">
@@ -67,6 +73,7 @@
                     <li>Use of contraception</li>
                     <li>Encouraging career and life goals</li>
                 </ul>
+                <a href="./earlypregnancy.html" class="btn">Learn more</a>
             </div>
 
             <div class="box">
@@ -84,7 +91,7 @@
         <h2>STIs & HIV/AIDS Awareness</h2>
         <p>Sexually transmitted infections (STIs), including HIV/AIDS, pose serious health risks. Understanding their causes, symptoms, and prevention can help reduce their spread.</p>
 
-        <div class="content">
+        <div class="sti-container">
             <div class="box">
                 <h3>Common STIs</h3>
                 <ul>
@@ -94,6 +101,7 @@
                     <li>Herpes</li>
                     <li>HIV/AIDS</li>
                 </ul>
+                <a href="./Info.html" class="btn">Learn more</a>
             </div>
 
             <div class="box">
@@ -105,6 +113,7 @@
                     <li>Itching or irritation</li>
                     <li>Fatigue and fever (HIV/AIDS)</li>
                 </ul>
+                <a href="./Info.html" class="btn">Learn more</a>
             </div>
 
             <div class="box">
@@ -116,6 +125,7 @@
                     <li>Being faithful to one partner</li>
                     <li>Educating yourself and others</li>
                 </ul>
+                <a href="./Info.html" class="btn">Learn more</a>
             </div>
 
             <div class="box">
@@ -127,6 +137,7 @@
     </div>
 </section>
 <!-- Quizzes Section -->
+<section id="quizzes"class="quizzes-section">
     <div class="container">
         <h2>Test Your Knowledge: Quizzes</h2>
         <p>Take these short quizzes to test your knowledge on early pregnancies, STIs, and HIV/AIDS prevention.</p>
@@ -135,58 +146,112 @@
             <div class="quiz-box">
                 <h3>Early Pregnancies Quiz</h3>
                 <p>Check your awareness about early pregnancies and their impact.</p>
-                <a href="#quiz-early-pregnancies" class="btn">Take Quiz</a>
+                <a href="https://forms.gle/VoXK6buALEkfeyx78" class="btn">Take Quiz</a>
             </div>
 
             <div class="quiz-box">
                 <h3>STIs & HIV/AIDS Quiz</h3>
                 <p>Learn more about the causes, symptoms, and prevention of STIs and HIV/AIDS.</p>
-                <a href="#quiz-stis-hiv" class="btn">Take Quiz</a>
+                <a href="https://forms.gle/VoXK6buALEkfeyx78" class="btn">Take Quiz</a>
             </div>
 
             <div class="quiz-box">
                 <h3>Healthy Relationships Quiz</h3>
                 <p>Understand the importance of respect and consent in relationships.</p>
-                <a href="#quiz-relationships" class="btn">Take Quiz</a>
+                <a href="https://forms.gle/VoXK6buALEkfeyx78" class="btn">Take Quiz</a>
             </div>
         </div>
     </div>
-   
-
-<!-- Discussion Forum Section -->
-<section id="forum" class="forum-section">
-    <div class="forum-header">
-        <h2>Join the Discussion Forum</h2>
-        <p>Engage in meaningful conversations, ask questions, and share your experiences with others.</p>
-    </div>
-
-    <div class="forum-content">
-        <div class="forum-card">
-            <h3>🌍 General Discussions</h3>
-            <p>Talk about general topics related to health, relationships, and well-being.</p>
-            <a href="#forum-general" class="forum-btn">Join Discussion</a>
-        </div>
-
-        <div class="forum-card">
-            <h3>🦠 STIs & HIV/AIDS</h3>
-            <p>Share information, experiences, and prevention tips about STIs and HIV/AIDS.</p>
-            <a href="#forum-stis-hiv" class="forum-btn">Join Discussion</a>
-        </div>
-
-        <div class="forum-card">
-            <h3>🤰 Early Pregnancies</h3>
-            <p>Discuss the causes, effects, and solutions to early pregnancies.</p>
-            <a href="#forum-early-pregnancies" class="forum-btn">Join Discussion</a>
-        </div>
-
-        <div class="forum-card">
-            <h3>💬 Support & Advice</h3>
-            <p>Get guidance and support from experts and peers.</p>
-            <a href="#forum-support" class="forum-btn">Join Discussion</a>
-        </div>
-    </div>
 </section>
+<!-- Discussion Forum Section -->
+<section id="forum" class="container-D">
+        <!-- Discussions Sections -->
+        <section class="discussion-section">
+            <h2>🗨️ Join a Discussion</h2>
+            <p>Click on a topic to start engaging with others.</p>
+            <div class="topics">
+                <button class="topic-btn" data-topic="General Discussion">🌍 General Discussion</button>
+                <button class="topic-btn" data-topic="STIs & HIV/AIDS">🦠 STIs & HIV/AIDS</button>
+                <button class="topic-btn" data-topic="Early Pregnancy">🤰 Early Pregnancy</button>
+                <button class="topic-btn" data-topic="Support & Advice">💬 Support & Advice</button>
+            </div>
+        </section>
 
+        <!-- Dynamic Content Section -->
+        <section id="content-section" class="content-section">
+            <h3>Discussion Content</h3>
+            <p>Select a topic to view discussions.</p>
+        </section>
+
+        <!-- Threaded Discussions -->
+        <section id="thread-container" class="thread-container">
+            <h3>Ongoing Threads</h3>
+            <p>Click a topic to see active discussions.</p>
+        </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".topic-btn");
+
+    buttons.forEach(button => {
+        button.addEventListener("click", function () {
+            const topicName = this.getAttribute("data-topic");
+            joinTopic(topicName);
+        });
+    });
+});
+
+function joinTopic(topicName) {
+    // Display welcome message
+    const contentSection = document.getElementById("content-section");
+    contentSection.innerHTML = `<h3>Welcome to the "${topicName}" Discussion!</h3><p>Engage with others in meaningful conversations.</p>`;
+
+    // Load interactive threads
+    const threadContainer = document.getElementById("thread-container");
+    threadContainer.innerHTML = `
+        <h3>${topicName} Threads</h3>
+        <ul>
+            <li><a href="https://youtu.be/YE0RoETf0DM?si=WgytjbJYk7wV5mkG">How to stay healthy?</a></li>
+            <li><a href="https://youtu.be/mlwo6TA6Tso?si=0Aj09R3-9TlgP8Ii">Latest trends in wellness</a></li>
+            <li><a href="https://youtu.be/qz8AAwBrReo?si=3qn6zYR5bxlu8yLS">Top education resources</a></li>
+        </ul>
+    `;
+
+    // Store user's joined topic
+    let joinedTopics = JSON.parse(localStorage.getItem("joinedTopics")) || [];
+    if (!joinedTopics.includes(topicName)) {
+        joinedTopics.push(topicName);
+        localStorage.setItem("joinedTopics", JSON.stringify(joinedTopics));
+    }
+
+    // Update button text
+    const topicButton = document.querySelector(`button[data-topic="${topicName}"]`);
+    topicButton.textContent = "Leave";
+    topicButton.style.backgroundColor = "red";
+    topicButton.onclick = () => leaveTopic(topicName);
+}
+
+function leaveTopic(topicName) {
+    alert(`You have left the "${topicName}" discussion.`);
+    location.reload(); // Refresh page to reset the forum
+}
+
+    </script>
+</section>
+<div id="chatbot-toggle" onclick="toggleChatbot()">💬 Chat</div>
+    <div id="chatbot-window" style="display: none;">
+    <div class="chat-header">💬 LifeWise Assistant 
+        <span id="chat-close" onclick="toggleChatbot()">✖</span>
+    </div>
+    <div class="chat-body" id="chat-body">
+      <div class="bot-message">Hi! I'm here to answer your health questions. 😊</div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Type your question..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="chatbot.js"></script>
 <!-- Contact Section -->
 <section id="contact" class="contact-section">
     <div class="container">
@@ -196,7 +261,7 @@
         <div class="contact-info">
             <div class="info-box">
                 <h3>📧 Email</h3>
-                <p><a href="mailto:support@lifewise.org">support@lifewise.org</a></p>
+                <p><a href="mailto:lofykings85@gmail.com">supportlifewise@gmail.com</a></p>
             </div>
 
             <div class="info-box">
@@ -206,7 +271,7 @@
         </div>
 
         <h3>Send Us a Message</h3>
-        <form action="submit_form.php" method="POST" class="contact-form">
+        <form action="./contact.php" method="POST">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" placeholder="Your Name" required>
 
@@ -219,6 +284,20 @@
             <button type="submit">Send Message</button>
         </form>
     </div>
-</section> 
+</section>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".join-btn");
+
+    buttons.forEach(button => {
+        button.addEventListener("click", function () {
+            const target = this.getAttribute("data-target");
+
+            // Redirect to discussion page or scroll to section
+            window.location.href = `discussion.html#${target}`;
+        });
+    });
+});
+</script>
 </body>
 </html>

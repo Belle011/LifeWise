@@ -13,7 +13,8 @@ $conn = new mysqli("localhost", "root", "", "lifewise", 3306);
 
 // Check connection
 if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+    header('Content-Type: application/json');
+    echo json_encode(["error" => "Database connection failed: " . $conn->connect_error]);
+    exit();
 }
-
 ?>
